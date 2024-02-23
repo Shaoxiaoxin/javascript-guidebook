@@ -29,7 +29,7 @@ Node.insertBefore(node);
 
 ```js
 const foo = document.getElementById('foo');
-const bar = document.getElementId('bar');
+const bar = document.getElementById('bar');
 
 foo.insertBefore(bar);
 ```
@@ -51,7 +51,7 @@ Node.appendChild(node);
 
 ```js
 const foo = document.getElementById('foo');
-const bar = document.getElementId('bar');
+const bar = document.getElementById('bar');
 
 foo.appendChild(bar);
 ```
@@ -85,7 +85,7 @@ const span = document.createElement('span');
 const foo = document.getElementById('foo');
 const bar = foo.firstElementChild;
 
-foo.replace(bar, span);
+foo.replace(span, bar);
 ```
 
 运行后：
